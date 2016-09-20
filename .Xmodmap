@@ -1,0 +1,3 @@
+# Set capslock like mod key 
+keycode 66 = Super_L
+clear Lock
