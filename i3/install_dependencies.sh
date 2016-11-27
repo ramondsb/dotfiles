@@ -11,3 +11,6 @@ rm -rf temporary
 
 # For use by the battery widget in i3blocks
 sudo apt-get install --yes acpi
+
+# Install screen locker
+sudo apt-get install i3lock
