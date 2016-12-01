@@ -30,7 +30,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+c kill
 
 # Call volumen switcher
-bindsym $mod+v exect pavucontrol
+bindsym $mod+m exect pavucontrol
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
