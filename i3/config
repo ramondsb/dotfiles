@@ -30,8 +30,9 @@ bindsym $mod+Return exec terminator "--working-directory=`xcwd`"
 # kill focused window
 bindsym $mod+Shift+c kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# Settings dmenu (a program launcher)
+# Set keybinding and colorscheme
+bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu' -l 10"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
